@@ -1,3 +1,5 @@
+// Първоначално ми дойде да направя функция, но не видях смисъл и на долния код я махнах.
+
 // const phrases = [
 //     'Hello, my name is Roboty. Nice to meet you!',
 //     'Error! Malfunction detected! KILL! ALL! HUMANS!',
@@ -13,7 +15,7 @@
 
 // setTimeout(() => { showRandomPhrase() }, 3000);
 
-//Другия вариант е с onload.
+//Друг вариант е с onload.
 //Избрах този вариант, защото така всички анимации минават и устата на роботчето се движи поне веднъж :)
 
 
