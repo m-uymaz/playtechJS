@@ -22,17 +22,14 @@ let sum = 0;
 for (let i = 0; i < products.length; i++) {
     if (products[i].price > 0 && products[i].price < 100) {
         cheapPrice.push(products[i]);
-        sum += products[i].price;
     } else if (products[i].price >= 100 && products[i].price < 500) {
         normalPrice.push(products[i]);
-        sum += products[i].price;
     } else if (products[i].price >= 500 && products[i].price <= 3000) {
         pricy.push(products[i]);
-        sum += products[i].price;
     }  else if (products[i].price > 3000) {
         overpriced.push(products[i]);
-        sum += products[i].price;
     }
+    sum += products[i].price;
 }
 
 // console.log("cheapPriced:", cheapPrice);
